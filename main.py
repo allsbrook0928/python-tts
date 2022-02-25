@@ -1,4 +1,6 @@
 import pyttsx3
+from pyttsx3.drivers import sapi5 # I don't know why this has to be here but it does for the exe to work
+
 engine = pyttsx3.init()
 
 def options():
